@@ -22,7 +22,7 @@ public class PathCompressionImpl implements IUnionFind {
 
     public PathCompressionImpl(int count) {
         this.count = count;
-        parents = new int[count];
+        this.parents = new int[count];
         this.size = new int[count];
 
         for (int i = 0; i < parents.length; i++) {
